@@ -79,31 +79,18 @@ export const skills = [
       'Vercel', 'Render', 'Linux'
     ]
   },
-  {
-    group: 'Industrial Automation',
-    items: [
-      'PLC Programming',
-      'Ladder Logic',
-      'SCADA',
-      'HMI Configuration',
-      'Siemens TIA Portal',
-      'Mitsubishi GX Works',
-      'Industrial Sensors',
-      'Motor Control',
-      'VFD Configuration',
-      'Electrical Troubleshooting'
-    ]
-  },
-  {
-    group: 'Electrical Design',
-    items: [
-      'AutoCAD Electrical',
-      'Electrical Wiring Diagrams',
-      'Control Panel Design',
-      'Circuit Analysis',
-      'Electrical Schematics'
-    ]
-  }
+{
+  group: 'Electrical & Automation',
+  items: [
+    'PLC Programming',
+    'Ladder Logic',
+    'SCADA',
+    'HMI',
+    'VFD',
+    'AutoCAD Electrical'
+  ]
+}
+
 ];
 
 
