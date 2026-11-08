@@ -49,12 +49,63 @@ export const stack = [
   { letter: 'N', name: 'Node.js' },
 ]
 
+
 export const skills = [
-  { group: 'Frontend', items: ['React', 'Vite', 'JavaScript', 'TypeScript', 'Redux Toolkit', 'Tailwind CSS', 'HTML & CSS'] },
-  { group: 'Backend', items: ['Node.js', 'Express', 'REST APIs', 'JWT Auth', 'Socket.io', 'Validation' , 'BullMQ'] },
-  { group: 'Database', items: ['MongoDB', 'Mongoose', 'Aggregation', 'Indexing', 'Redis', 'PostgreSQL'] },
-  { group: 'Tools', items: ['Git & GitHub', 'Postman', 'Docker', 'Vercel', 'Render', 'Linux'] },
-]
+  {
+    group: 'Frontend',
+    items: [
+      'React', 'Vite', 'JavaScript', 'TypeScript',
+      'Redux Toolkit', 'Tailwind CSS', 'HTML & CSS'
+    ]
+  },
+  {
+    group: 'Backend',
+    items: [
+      'Node.js', 'Express', 'REST APIs', 'JWT Auth',
+      'Socket.io', 'Validation', 'BullMQ'
+    ]
+  },
+  {
+    group: 'Database',
+    items: [
+      'MongoDB', 'Mongoose', 'Aggregation',
+      'Indexing', 'Redis', 'PostgreSQL'
+    ]
+  },
+  {
+    group: 'Tools',
+    items: [
+      'Git & GitHub', 'Postman', 'Docker',
+      'Vercel', 'Render', 'Linux'
+    ]
+  },
+  {
+    group: 'Industrial Automation',
+    items: [
+      'PLC Programming',
+      'Ladder Logic',
+      'SCADA',
+      'HMI Configuration',
+      'Siemens TIA Portal',
+      'Mitsubishi GX Works',
+      'Industrial Sensors',
+      'Motor Control',
+      'VFD Configuration',
+      'Electrical Troubleshooting'
+    ]
+  },
+  {
+    group: 'Electrical Design',
+    items: [
+      'AutoCAD Electrical',
+      'Electrical Wiring Diagrams',
+      'Control Panel Design',
+      'Circuit Analysis',
+      'Electrical Schematics'
+    ]
+  }
+];
+
 
 // My journey — education, development, and professional experience
 export const timeline = [
