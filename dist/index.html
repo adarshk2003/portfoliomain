@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Portfolio of a MERN stack developer." />
+    <meta name="theme-color" content="#090a12" />
+    <script>
+      // Apply saved theme + accent before first paint (no flash)
+      (function () {
+        var d = document.documentElement, t = null, a = null;
+        try { t = localStorage.getItem('theme'); a = localStorage.getItem('accent'); } catch (e) {}
+        if (t !== 'light' && t !== 'dark') {
+          t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        }
+        d.setAttribute('data-theme', t);
+        var inks = {
+          '#0A84FF': '#FFFFFF',
+          '#8B5CF6': '#FFFFFF',
+          '#0F9F9A': '#FFFFFF',
+          '#E5487A': '#FFFFFF'
+        };
+        if (inks[a]) {
+          d.style.setProperty('--accent', a);
+          d.style.setProperty('--on-accent', inks[a]);
+        }
+      })();
+    </script>
+    <noscript><style>.reveal{opacity:1!important;translate:none!important}.loader{display:none!important}</style></noscript>
+    <title>Adarsh k </title>
+    <script type="module" crossorigin src="/assets/index-BcF65mM9.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cni3AeQL.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
