@@ -398,7 +398,10 @@ h3 { font-size: 1.2rem; font-weight: 620; letter-spacing: -0.025em; line-height:
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chips li { padding: 6px 13px; border-radius: 999px; background: var(--pill); font-size: var(--type-small); font-weight: 500; line-height: 1.35; }
 .chips li a { display: block; }
-.chips li a:hover { color: var(--accent); }
+.skills-grid .chips li a:hover,
+.skills-grid .chips li a:focus-visible { color: #7dd3fc; text-shadow: 0 0 12px rgba(125, 211, 252, 0.45); }
+:root[data-theme='light'] .skills-grid .chips li a:hover,
+:root[data-theme='light'] .skills-grid .chips li a:focus-visible { color: #0369a1; text-shadow: none; }
 .chips-sm li { padding: 4px 10px; font-size: var(--type-label); color: var(--muted); }
 
 /* ── Projects ── */
