@@ -27,7 +27,7 @@ export const profile = {
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/adarsh-k-154631348 ' },
     { label: 'Twitter', href: 'https://twitter.com/your-username' },
   ],
-  resume: 'https://drive.google.com/file/d/10cblrElsl28QtPSXG9Iase-sSA2Qs_pO/view?usp=drive_link', // put a link to your CV here
+  resume: 'https://drive.google.com/file/d/1l_9J0quFmRO9qGyuTcArHuIvNCBeJX6C/view?usp=drive_link', 
 }
 
 // Words that type out under your name in the hero
