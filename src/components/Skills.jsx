@@ -12,7 +12,15 @@ export default function Skills() {
               <h3>{g.group}</h3>
               <ul className="chips">
                 {g.items.map((item) => (
-                  <li key={item}>{item}</li>
+                  <li key={item}>
+                    <a
+                      href={`https://www.google.com/search?q=${encodeURIComponent(item)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {item}
+                    </a>
+                  </li>
                 ))}
               </ul>
             </article>

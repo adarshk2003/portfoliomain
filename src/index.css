@@ -397,6 +397,8 @@ h3 { font-size: 1.2rem; font-weight: 620; letter-spacing: -0.025em; line-height:
 .skills-grid h3 { margin-bottom: 16px; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chips li { padding: 6px 13px; border-radius: 999px; background: var(--pill); font-size: var(--type-small); font-weight: 500; line-height: 1.35; }
+.chips li a { display: block; }
+.chips li a:hover { color: var(--accent); }
 .chips-sm li { padding: 4px 10px; font-size: var(--type-label); color: var(--muted); }
 
 /* ── Projects ── */
